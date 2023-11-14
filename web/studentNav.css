@@ -1,0 +1,29 @@
+h3 {
+  padding-left: 500px;
+}
+p {
+  padding-left: 500px;
+}
+
+.nilai {
+  background-color: #007791;
+  padding-left: 420px;
+}
+
+footer {
+  text-align: center;
+  background-color: #354842;
+}
+footer b {
+  color: white;
+}
+
+.logo{
+  width: 150px;
+}
+
+.nav-item.active > .dropdown > .nav-link {
+  background-color: #ffc107; /* Example color for highlighting */
+  color: white; /* Example color for text */
+  /* Add any additional styles for the active item */
+}

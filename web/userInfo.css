@@ -1,0 +1,92 @@
+/* Custom CSS for User Information Page */
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  /* padding: 20px; */
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container-profile-picture {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  margin: 0 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.student-info {
+  text-align: left;
+  margin-bottom: 20px;
+  /* padding-left: 100px; */
+}
+
+.student-info label {
+  font-weight: bold;
+}
+
+.student-info span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-footer a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.card-footer a:hover {
+  text-decoration: underline;
+}
+
+.student-info-table{
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
